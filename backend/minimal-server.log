@@ -1,0 +1,6 @@
+[2026-02-06T05:18:06.222Z] Starting minimal server...
+[2026-02-06T05:18:06.227Z] Loaded .env file
+[2026-02-06T05:18:06.228Z] MONGODB_URI: SET (mongodb+srv://dineshsdh05_db_u...)
+[2026-02-06T05:18:06.229Z] PORT: 5000
+[2026-02-06T05:18:06.237Z] Server running on port 5000 (no DB connection)
+[2026-02-06T05:18:06.238Z] Test URL: http://localhost:5000/test

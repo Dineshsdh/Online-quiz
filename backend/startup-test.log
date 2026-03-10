@@ -1,0 +1,38 @@
+﻿≡ƒöä MongoDB connection attempt 1/3...
+node.exe : Γ¥î MongoDB connection attempt 1 failed: querySrv 
+ECONNREFUSED _mongodb._tcp.thinkcluster.zf4idfx.mongodb.net
+At line:1 char:11
++ $output = & node server.js 2>&1; $output | Out-File 
+-FilePath "startu ...
++           ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Γ¥î MongoDB con 
+   ...dfx.mongodb.net:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ΓÅ│ Retrying in 5 seconds...
+≡ƒöä MongoDB connection attempt 2/3...
+Γ¥î MongoDB connection attempt 2 failed: querySrv 
+ECONNREFUSED _mongodb._tcp.thinkcluster.zf4idfx.mongodb.net
+ΓÅ│ Retrying in 5 seconds...
+≡ƒöä MongoDB connection attempt 3/3...
+Γ¥î MongoDB connection attempt 3 failed: querySrv 
+ECONNREFUSED _mongodb._tcp.thinkcluster.zf4idfx.mongodb.net
+
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓ
+òÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò
+ÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+Γ¥î Failed to connect to MongoDB after all retry attempts.
+
+Please check:
+  1. Is MongoDB running locally? Run: mongod
+  2. Is MONGODB_URI correct in .env file?
+  3. For MongoDB Atlas: Is your IP whitelisted?
+  4. Check your network/firewall settings
+
+Current URI: mongodb+srv://dineshsdh05_db_user:****@thinkclus
+ter.zf4idfx.mongodb.net/thinkclash?retryWrites=true&w=majorit
+y&appName=thinkcluster
+ΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓ
+òÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓò
+ÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉΓòÉ
+

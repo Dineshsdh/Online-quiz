@@ -1,0 +1,11 @@
+﻿node : MongoDB connection error: querySrv ECONNREFUSED 
+_mongodb._tcp.thinkcluster.zf4idfx.mongodb.net
+At line:1 char:1
++ node --experimental-modules --unhandled-rejections=throw 
+server.js 2> ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (MongoDB connect 
+   ...dfx.mongodb.net:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
